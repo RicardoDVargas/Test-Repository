@@ -6,7 +6,7 @@ function calcular(){
 }
 document.getElementById("buttonAnimation").addEventListener("click", function(){
     this.style.backgroundColor = "#3700b3";
-    this.textContent = "Adding!";
+    this.textContent = "Adding";
     this.style.transform = "scale(0.95)";
     
     setTimeout(() => {
